@@ -1,0 +1,17 @@
+{% extends "pag_base.html" %}
+
+
+{% block content %}
+<main>
+  <h1>Nossos Quartos</h1>
+  <p>Dê uma espiada em nossos quartos aconchegantes!</p>
+  {% load static %}
+  <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+  <img src="{% static '/images/casal.jpg' %}" alt="Quarto Casal">
+  <img src="{% static '/images/casal_suite.jpg' %}" alt="Quarto Casal Suíte">
+  <img src="{% static '/images/triplo.jpg' %}" alt="Quarto Triplo">
+</main>
+{% endblock %}
+
+<img src="../static/images/slogan.jpg" alt="Hotel Fazenda Que tal uma escapada com diversão e ar puro?">
+
