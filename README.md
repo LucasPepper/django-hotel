@@ -28,11 +28,6 @@ Executar as migrations do BD:
 python manage.py makemigrations
 python manage.py migrate
 ```
-Em seguida, criar um super usuário, com o seguinte comando (Rodar na pasta raiz do projeto, onde se encontra o manage.py):
-
-```
-python manage.py createsuperuser
-```
 Finalmente, executar o projeto:
 
 ```
