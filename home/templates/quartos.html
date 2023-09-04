@@ -3,7 +3,12 @@
 
 {% block content %}
 <main>
-  <h1>Nossos Quartos</h1>
+  <h1>Quartos Disponíveis</h1>
+
+  <p>Quartos Casal (Suíte): <b>{{ num_quartos_casal_suite }}</b></p>
+  <p>Quartos Casal: <b>{{ num_quartos_casal }}</b></p>
+  <p>Quartos Triplo: <b>{{ num_quartos_triplo }}</b></p>
+
   <p>Dê uma espiada em nossos quartos aconchegantes!</p>
   {% load static %}
   <link rel="stylesheet" href="{% static 'css/styles.css' %}">
